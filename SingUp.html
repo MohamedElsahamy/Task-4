@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <div class="container d-flex flex-column">
+        <h1 class="display-1 text-danger">Smart Login System</h1>
+        <input type="text" class=" form-control my-3" id="UserName2" placeholder="User Name ">
+        <input oninput="ValidateUserData(this)" type="text" class=" is-invalid form-control my-3" id="mail2"
+            placeholder="mail ">
+        <input oninput="ValidateUserData(this)" type="password" class=" is-invalid form-control my-3" id="password2"
+            placeholder="password ">
+        <P id="Message" class="d-none  text-center">incorrect email or password</P>
+        <button id="AddUserToLocalStorage" class="disabled btn btn-danger mt-3">Add</button>
+        <a href="index.html" class="text-center mb-5">You have an account? Signin</a>
+
+    </div>
+
+    <script src="JS/SingUp.js"></script>
+
+</body>
+
+</html>
